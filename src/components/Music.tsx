@@ -22,7 +22,7 @@ const filters = data.filter((item) => item.title.toLowerCase().includes(search.t
       <div className='w-2/5 mt-10	bg-[#1a1a1a] w-3/12	px-3 py-4 max-lg:w-full'>
 <div>
   <p className='text-2xl text-white	font-bold font-sans
-	max-sm:text-xl	'>Santy <span className='text-[#20ec00] font-semibold font-serif
+	max-sm:text-xl	'>Shesh <span className='text-[#20ec00] font-semibold font-serif
 	'>Spoty</span></p>
 </div>
 
