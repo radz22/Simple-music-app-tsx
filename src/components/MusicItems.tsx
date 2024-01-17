@@ -19,16 +19,16 @@ const MusicItems = () => {
        </div>
         </div> 
 
-       <div className='w-full flex items-center justify-center'>
+       <div className='w-full flex items-center justify-center mt-10'>
  
- <div className='bg-[#1a1a1a] w-3/5	flex items-center justify-center flex-col h-auto py-5 px-5 rounded-lg	'>
+ <div className='bg-[#1a1a1a] w-3/5	flex items-center justify-center flex-col h-auto py-5 px-5 rounded-lg	max-xl:w-2/3 max-md:w-full'>
 
 
-<div className='w-3/5	mt-5'>
-  <img src={MusicItems?.image} className='w-full h-72		rounded-md		'/>
+<div className='w-3/5	mt-5 max-md:w-5/6	 max-sm:w-full'>
+  <img src={MusicItems?.image} className='w-full h-72		rounded-md	'/>
 </div>
 <div>
-  <h1 className='text-white text-2xl font-bold	mt-5'>{MusicItems?.title}</h1>
+  <h1 className='text-white text-2xl font-bold	mt-5 max-xl:text-xl		'>{MusicItems?.title}</h1>
 </div>
 <div className='bg-white mt-5'>
 <audio controls >
@@ -37,11 +37,11 @@ const MusicItems = () => {
       </audio>
 </div>
 
-<div className='mt-16 w-10/12	'>
-  <p className='text-[#757574] text-lg  '>{MusicItems?.lyrics}</p>
+<div className='mt-16 w-10/12 max-sm:w-full	'>
+  <p className='text-[#757574] text-lg  max-xl:text-base	 max-sm:text-sm	'>{MusicItems?.lyrics}</p>
 </div>
 <div className='mt-10'>
-  <p className='text-white text-lg'>{MusicItems?.singer}</p>
+  <p className='text-white text-lg '>{MusicItems?.singer}</p>
   <p  className='text-white text-lg'>{MusicItems?.publish}</p>
 </div>
 
